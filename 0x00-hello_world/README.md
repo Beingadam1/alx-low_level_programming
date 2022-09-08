@@ -5,3 +5,4 @@ ALX C programming basics projects/exercise <br>
 3 - script that compiles a C file and creates an executable named cisfun <br>
 4 - C program that prints exactly "Programming is like building a multilingual puzzle" <br>
 5 - Write a C program that prints exactly "with proper grammar, but the outcome is a piece of art" <br>
+6 - Write a C program that prints the size of various types on the computer it is compiled and run on <br>
