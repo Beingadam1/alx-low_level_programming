@@ -3,7 +3,6 @@
 /**
  * main -  prints all possible different combinations of two digits
  * separated by ,, followed by a space
- * printed in ascending order using putchar
  * Return: 0
  */
 int main(void)
@@ -26,3 +25,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
+}
