@@ -3,4 +3,5 @@ Variables, if, else, while <br>
 1 - This program will assign a random number to the variable n and print the last digit of the number stored in the variable n. <br>
 2 - Prints the alphabet in lowercase, followed by a new line. <br>
 3 - Prints the alphabet in lowercase, and then in uppercase. <br>
-4 - Program that prints the alphabet in lowercase, Print all the letters except q and e
+4 - Program that prints the alphabet in lowercase, Print all the letters except q and e. <br>
+5 - Prints all single digit numbers of base 10 starting from 0, followed by a new line. <br>
