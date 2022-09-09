@@ -5,3 +5,4 @@ Variables, if, else, while <br>
 3 - Prints the alphabet in lowercase, and then in uppercase. <br>
 4 - Program that prints the alphabet in lowercase, Print all the letters except q and e. <br>
 5 - Prints all single digit numbers of base 10 starting from 0, followed by a new line. <br>
+6 - Prints all single digit numbers of base 10 starting from 0, using putchar. <br>
