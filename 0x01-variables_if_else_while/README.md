@@ -7,3 +7,4 @@ Variables, if, else, while <br>
 5 - Prints all single digit numbers of base 10 starting from 0, followed by a new line. <br>
 6 - Prints all single digit numbers of base 10 starting from 0, using putchar. <br>
 7 - Prints the lowercase alphabet in reverse using putchar. <br>
+8 - Prints all the numbers of base 16 in lowercase using putchar. <br>
