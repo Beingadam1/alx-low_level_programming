@@ -10,3 +10,4 @@ Variables, if, else, while <br>
 8 - Prints all the numbers of base 16 in lowercase using putchar. <br>
 9 - Prints all possible combinations of single-digit numbers, separated by ',', followed by a space, printed in ascending order using putchar. <br>
 100 - Prints all possible different combinations of two digits, separated by ',', followed by a space, printed in ascending order using putchar. <br>
+101 - Prints all possible different combinations of three digits,  separated by ',', followed by a space, printed in ascending order using putchar. <br>
