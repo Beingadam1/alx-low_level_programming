@@ -8,4 +8,5 @@ Variables, if, else, while <br>
 6 - Prints all single digit numbers of base 10 starting from 0, using putchar. <br>
 7 - Prints the lowercase alphabet in reverse using putchar. <br>
 8 - Prints all the numbers of base 16 in lowercase using putchar. <br>
-9 - Prints all possible combinations of single-digit numbers, separated by ,, followed by a space, printed in ascending order using putchar. <br>
+9 - Prints all possible combinations of single-digit numbers, separated by ',', followed by a space, printed in ascending order using putchar. <br>
+100 - Prints all possible different combinations of two digits, separated by ',', followed by a space, printed in ascending order using putchar. <br>
