@@ -7,7 +7,7 @@
 int main(void)
 {
 	int count;
-	unsigned long i, j, k;		
+	unsigned long i, j, k;
 	unsigned long m, n, p, carry;
 		count = 0;
 		i = 0;
@@ -30,7 +30,7 @@ int main(void)
 		k = (i + j) + carry;
 		m = n;
 		n = p;
-		i = j;									
+		i = j;
 		j = k;
 		if (p >= 100)
 			printf("%lu%lu", k, p);
