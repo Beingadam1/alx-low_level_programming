@@ -2,6 +2,8 @@
 
 /**
  * main - causes an infinite loop
+ * Comment out (don’t delete it!)
+ *
  * Return: 0
  */
 int main(void)
