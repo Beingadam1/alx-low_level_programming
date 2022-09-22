@@ -3,7 +3,7 @@
 /**
  * *_strcat - concatenates two strings
  * @dest: destination string
- * @scr: source string
+ * @src: source string
  * overwriting the terminating null byte at the end of dest
  * adds a terminating null byte
  * Return: pointer to the resulting string dest
@@ -15,7 +15,7 @@ char *_strcat(char *dest, char *src)
 
 	while (dest[str] != '\0')
 	{
-		str++;	
+		str++;
 	}
 
 	while (src[str1] != '\0')
