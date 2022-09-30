@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 
-	for (i = 0; i < agrc; i++)
+	for (i = 0; i < argc; i++)
 	{
 		multi = multi * atoi(argv[i]);
 	}

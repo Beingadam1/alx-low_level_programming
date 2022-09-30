@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <ctype.h>
 
 /**
  * main -  multiplies two numbers
@@ -11,21 +12,30 @@
 
 int main(int argc, char *argv[])
 {
-	int i, sum = 0;
+	int i, sum, count;
 
-	if (argc < 1)
-		return (0);
+	count = 1;
+	sum = 0;
 
-	for (i = 1; i < argc; i++)
+	if (argc == 1)
 	{
-		if (!atoi(argv[i]))
+		printf("0\n");
+		return (0);
+	}
+
+	while (count < argc)
+	{
+		for (i = 0; argv[count][i] != '\0'; i++)
 		{
-			printf("%s\n", "Error");
-			return (1);
+			if (!(isdigit(argv[count][i])))
+			{
+				printf("Error\n");
+				return (1);
+			}
 		}
-		sum += atoi(argv[i]);
+		sum += atoi(argv[count]);
+		count++;
 	}
 	printf("%d\n", sum);
-
 	return (0);
 }
